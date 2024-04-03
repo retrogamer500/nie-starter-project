@@ -1,0 +1,54 @@
+{
+  "resources": {
+    "project": "data/maps.nep",
+    "images": [
+      {
+        "filename": "glob:data/images/*.{png}",
+        "key": "{1}"
+      }
+    ],
+    "textures": [
+      {
+        "filename": "glob:data/textures/*.{tga}",
+        "key": "{1}.tga",
+        "flipVertically": true
+      }
+    ],
+    "sprites": [
+    ],
+    "fonts": [
+      {
+        "size": 32.0,
+        "filename": "glob:data/fonts/*.ttf",
+        "key": "{1}"
+      }
+    ],
+    "audio": [
+      {
+        "filename": "glob:data/audio/*.ogg",
+        "key": "{1}"
+      }
+    ],
+    "scripts": [
+      {
+        "filename": "glob:data/scripts/*.js",
+        "key": "{1}"
+      }
+    ],
+    "entities": [
+      {
+        "scriptKey": "glob:*",
+        "key": "{1}"
+      }
+    ],
+    "models": [
+      {
+        "filename": "glob:data/models/*.{obj}",
+        "key": "{1}"
+      }
+    ],
+    "properties": [
+
+    ]
+  }
+}
